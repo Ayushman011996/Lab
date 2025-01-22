@@ -44,3 +44,5 @@ plt.sca er(X_train_std[:, 0], X_train_std[:, 1], c=y_train, alpha=0.8)
 plt. tle('Logis c Regression Decision Boundaries') 
 plt.xlabel('Sepal length') 
 plt.ylabel('Sepal width')
+
+plt.savefig('plot.png')
